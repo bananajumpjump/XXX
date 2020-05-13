@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  src: local("HelveticaNeue"), url(../font/helveticaneue/HelveticaNeue.ttf), url(../font/helveticaneue/HelveticaNeue.woff), url(../font/helveticaneue/HelveticaNeue.eot);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: HelveticaNeue;
+}
+body .titleTxt {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+}
+body .bodyTxt {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+body .bodyTxtBold {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+body .btnstyle {
+  background-color: #00b6ff;
+  color: #fff;
+  border-radius: 18px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+.firstTxt {
+  min-height: 245px;
+  padding-top: 39px;
+}
+
+.card-group {
+  margin-top: 63px;
+}
+.card-group .card img {
+  width: 160px;
+  height: 130px;
+}
+.card-group .card p {
+  color: #00b6ff;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 31px;
+}
+.card-group .card p i {
+  padding: 10px;
+}
+
+.secTxt {
+  min-height: 300px;
+}
+.secTxt i {
+  color: #00b6ff;
+  font-weight: bold;
+  font-size: 25px;
+}
+.secTxt img {
+  margin-top: 15px;
+}
+.secTxt .dot-group {
+  margin-top: 48px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.secTxt .dot-group .dots {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+}
+.secTxt .dot-group .dots:hover {
+  background: #00b6ff;
+}
+
+.page3 {
+  background-color: #e9eaeb;
+}
+.page3 .img {
+  padding-top: 46.84%;
+  height: 564px;
+  background-size: cover;
+}
+.page3 .txt .p2 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+.page3 .txt .fakebtn {
+  padding: 10px 24px;
+  width: 179px;
+  height: 46px;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+
+.page4 {
+  min-height: 674px;
+}
+.page4 .titleTxt {
+  margin-top: 70px;
+  margin-bottom: 13px;
+}
+.page4 .item {
+  padding: 0 20px 0 50px;
+}
+.page4 .item .pic {
+  width: 100%;
+}
+.page4 .item .txt p {
+  margin: 10px 0;
+}
+.page4 .item .txt .date {
+  vertical-align: bottom;
+}
+.page4 .fakebtn {
+  margin: 26px 0 46px 0;
+  width: 162px;
+  height: 46px;
+  padding: 10px 0px;
+}
+
+.page5 .pic {
+  background-color: #e9eaeb;
+}
+.page5 .pic .img {
+  padding-top: 46.84%;
+  height: 564px;
+  background-size: cover;
+}
+.page5 .p1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+.page5 .p2 {
+  font-size: 30px;
+  line-height: 36px;
+}
+.page5 .btn {
+  margin-bottom: 20px;
+}
+
+.pageFoot {
+  height: 85px;
+  background-color: #00b6ff;
+  text-align: center;
+}
+.pageFoot p {
+  margin-top: 10px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.page6 .txt {
+  margin-top: 40px;
+}
+.page6 .pic img {
+  margin: 47px 0;
+}

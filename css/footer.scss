@@ -1,0 +1,47 @@
+.footer {
+  background-color: #212529;
+  min-height: 346px;
+  p {
+    color: #fff;
+  }
+  .list {
+    margin-top: 31px;
+    padding: 0 15px;
+  }
+}
+
+.contactUs {
+  margin-right: 13.2%;
+  input {
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    width: 201px;
+    height: 42px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 50px;
+  }
+}
+
+.media {
+  margin-right: 10%;
+}
+ul {
+  width: 224px;
+  justify-content: space-between;
+  li {
+    a {
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+}
+
+hr {
+  background: white;
+}
+
+.footertxt {
+  color: #fff;
+}

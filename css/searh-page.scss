@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  src: local("HelveticaNeue"), url(../font/helveticaneue/HelveticaNeue.ttf),
+    url(../font/helveticaneue/HelveticaNeue.woff),
+    url(../font/helveticaneue/HelveticaNeue.eot);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  max-width: 100%;
+  height: 255px;
+  background-color: #e9eaeb;
+
+  .titleTxt {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  input[type="text"] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  .search-bar button {
+    position: relative;
+    width: 80%;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+}
