@@ -31,18 +31,6 @@ body .btnstyle {
   border-radius: 18px;
 }
 
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-}
-
 .firstTxt {
   min-height: 245px;
   padding-top: 39px;
@@ -95,23 +83,32 @@ body .btnstyle {
 
 .page3 {
   background-color: #e9eaeb;
+  min-height: 564px;
 }
 .page3 .img {
-  padding-top: 46.84%;
-  height: 564px;
+  background-image: url(../images/IMG_2965.jpg);
   background-size: cover;
+  background-position: center;
+  padding-top: 68.9%;
 }
-.page3 .txt .p2 {
+.page3 .p3bg {
+  display: flex;
+  margin-top: 39px;
+}
+.page3 .p3bg .txt {
+  margin: auto;
+}
+.page3 .p3bg .txt .p2 {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
 }
-.page3 .txt .fakebtn {
+.page3 .p3bg .txt .fakebtn {
   padding: 10px 24px;
   width: 179px;
   height: 46px;
   margin-top: 42px;
-  margin-bottom: 20px;
+  margin-bottom: 57px;
 }
 
 .page4 {
@@ -144,9 +141,10 @@ body .btnstyle {
   background-color: #e9eaeb;
 }
 .page5 .pic .img {
-  padding-top: 46.84%;
-  height: 564px;
+  background-image: url(../images/P1310285.jpg);
   background-size: cover;
+  background-position: center;
+  padding-top: 70%;
 }
 .page5 .p1 {
   font-size: 40px;

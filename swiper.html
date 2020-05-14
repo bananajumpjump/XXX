@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-4.3.1-dist/css/bootstrap.min.css"
+    />
+    <!-- Link Swiper's CSS -->
+
+    <link
+      rel="stylesheet"
+      href="./assets/swiper-5.3.8/package/css/swiper.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .silder {
+        position: relative;
+        height: 662px;
+      }
+      .silder {
+        color: #fff;
+      }
+      .swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        text-align: right;
+        font-size: 18px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        /* Center slide text vertically */
+        display: flex;
+      }
+
+      .pic1 {
+        background-image: url(./images/header01.jpg);
+        background-position: center;
+      }
+      .pictxt {
+        margin-top: 219px;
+        margin-left: 45%;
+      }
+      .title {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 61px;
+        margin-bottom: 15px;
+      }
+      .txt {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 21px;
+      }
+      .pictxt input {
+        border: none;
+        margin-top: 48px;
+        height: 48px;
+        border-radius: 20px;
+        padding: 0 15px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #00b6ff;
+      }
+
+      .pic2 {
+        background-image: url(./images/header02.jpg);
+        background-position: center;
+      }
+      .pic3 {
+        background-image: url(./images/header03.jpg);
+        background-position: bottom;
+      }
+      .pic4 {
+        background-image: url(./images/header04.jpg);
+        background-position: bottom;
+      }
+      .pic5 {
+        background-image: url(./images/header05.jpg);
+        background-position: bottom;
+      }
+      .pic6 {
+        background-image: url(./images/header06.jpg);
+        background-position: bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Swiper -->
+    <div class="silder">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide pic1">
+            <div class="pictxt">
+              <p class="title">ADVANCED SAFETY</p>
+              <p class="txt">Built-In Fire Suppression Properties</p>
+              <input
+                name=""
+                id=""
+                class="btn"
+                type="button"
+                value="MARINE APPLICATIONS"
+              />
+            </div>
+          </div>
+          <div class="swiper-slide pic2">
+            <div class="pictxt">
+              <p class="title">HIGH POWER OUTPUT</p>
+              <p class="txt">Power Density Up to 200 W /kg</p>
+              <input
+                name=""
+                id=""
+                class="btn"
+                type="button"
+                value="CONSTRUCTION & MINING"
+              />
+            </div>
+          </div>
+          <div class="swiper-slide pic3">
+            <div class="pictxt">
+              <p class="title">EXTREME CONDITION</p>
+              <p class="txt">
+                Operating Temperature: -5<span>&#8451;</span> ~ 50<span
+                  >&#8451;</span
+                >
+              </p>
+              <input
+                name=""
+                id=""
+                class="btn"
+                type="button"
+                value="AEOSPACE APPLICATIONS"
+              />
+            </div>
+          </div>
+          <div class="swiper-slide pic4">
+            <div class="pictxt">
+              <p class="title">MODULAR VERSATILITY</p>
+              <p class="txt">5000+ pack configurations</p>
+              <input
+                name=""
+                id=""
+                class="btn"
+                type="button"
+                value="AGRICULTURE APPLICATIONS"
+              />
+            </div>
+          </div>
+          <div class="swiper-slide pic5">
+            <div class="pictxt">
+              <p class="title">ADVANCED SAFETY</p>
+              <p class="txt">Built-In fire Suppression Properties</p>
+              <input
+                name=""
+                id=""
+                class="btn"
+                type="button"
+                value="PERFORMANCE APPLICATIONS"
+              />
+            </div>
+          </div>
+          <div class="swiper-slide pic6">
+            <div class="pictxt">
+              <p class="title">EXTREME CONDITION</p>
+              <p class="txt">
+                Operating Temperature: -5<span>&#8451;</span> ~ 50<span
+                  >&#8451;</span
+                >
+              </p>
+              <input
+                name=""
+                id=""
+                class="btn"
+                type="button"
+                value="AEOSPACE APPLICATIONS"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/jquery-3.5.1.js"></script>
+    <script src="./assets//bootstrap-4.3.1-dist/js/bootstrap.bundle.js"></script>
+    <script src="./assets/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="./assets/swiper-5.3.8/package/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        // slidesPerView: 1,
+        // mousewheel: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>

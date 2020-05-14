@@ -1,0 +1,20 @@
+.tecMenu {
+  min-height: 35px;
+  background: #e9eaeb;
+}
+
+.ev-image {
+  display: flex;
+  min-height: 293px;
+  background-image: url(../../images/Technology/Immersio-Picture.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ev-image .text {
+  margin: auto;
+}
+.ev-image .text p {
+  color: #fff;
+  font-size: 60px;
+}
