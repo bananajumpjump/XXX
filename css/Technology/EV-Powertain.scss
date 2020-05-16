@@ -1,12 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  .btn {
+    border: 1px solid #00b6ff;
+    background-color: #00b6ff;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+  }
+}
+
 .tecMenu {
-  min-height: 35px;
+  height: 35px;
   background: #e9eaeb;
+  text-align: end;
+
+  .menutxt {
+    p {
+      display: inline-block;
+      margin-right: 7%;
+      margin-bottom: 0;
+      font-size: 13px;
+      padding-top: 8px;
+    }
+  }
 }
 
 .ev-image {
   display: flex;
   height: 293px;
-  background-image: url(../../images/Technology/Immersio-Picture.jpg);
+  background-image: url(../../images/Technology/EV01.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,4 +42,212 @@
       font-size: 60px;
     }
   }
+}
+
+.system-components-pic {
+  background-image: url(/images/Technology/EV02.jpg);
+  height: 539px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin: 94px 0;
+}
+
+//silder show
+.silder {
+  min-height: 418px;
+  background-color: #d8d8d8;
+}
+
+.product-pic {
+  margin-top: 42px;
+  background-image: url(/images/technology/EV03.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 238px;
+  object-fit: cover;
+}
+
+.product-txt {
+  margin-top: 90px;
+}
+
+.dot-group {
+  margin-top: 1.5%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  .dots {
+    // border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+  }
+  .dots:hover {
+    background: #00b6ff;
+  }
+}
+
+.contactbtn {
+  text-align: center;
+  margin: 34px 0;
+  input {
+    height: 46px;
+    width: 126px;
+    font-size: 16px;
+  }
+}
+
+.thankyou {
+  display: flex;
+  height: 85px;
+  background-color: #00b6ff;
+  div {
+    margin: auto;
+    font-weight: bold;
+    font-size: 21px;
+  }
+}
+
+.corss-item {
+  background-color: #e9eaeb;
+  div {
+    padding: 0;
+  }
+  .pic {
+    height: 450px;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}
+.txtbg {
+  display: flex;
+  .txt {
+    margin: auto;
+    padding: 26px;
+  }
+}
+
+.supercar-img {
+  background-image: url(/images/Technology/EV10.jpg);
+  height: 627px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  input {
+    height: 46px;
+    width: 118px;
+    font-size: 16px;
+  }
+}
+
+.supercar-txt {
+  color: #fff;
+  padding-top: 170px;
+  padding-left: 16%;
+
+  .p1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .p2 {
+    font-size: 50px;
+  }
+}
+
+.estpart {
+  height: 335px;
+  display: flex;
+  .secTxt {
+    margin: auto;
+    i {
+      color: #00b6ff;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    img {
+      margin-top: 15px;
+    }
+    .dot-group {
+      margin-top: 48px;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+
+      .dots {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin: 0 5px;
+        width: 10px;
+        height: 10px;
+      }
+      .dots:hover {
+        background: #00b6ff;
+      }
+    }
+  }
+}
+
+.applcation-form {
+  // min-height: 768px;
+  background-color: #e9eaeb;
+  padding-top: 64px;
+}
+
+.icon {
+  display: flex;
+  margin: 74px 0 28px;
+  justify-content: center;
+  text-align: center;
+
+  i {
+    font-size: 60px;
+    margin: 10px;
+  }
+  p {
+    font-size: 13px;
+  }
+}
+.icon1 {
+  color: #00b6ff;
+}
+.icon2 {
+  color: #979ba4;
+}
+// .icon1::after {
+//   content: "...........";
+// }
+
+.formtitle {
+  font-weight: bold;
+  font-size: 34px;
+  text-align: center;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+
+  label {
+    font-size: 13px;
+  }
+  .p1 {
+    margin-right: 29px;
+  }
+  .p2 {
+    margin-left: 26px;
+  }
+}
+.setwidth {
+  width: 129px;
+}
+.nextbtn {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 92px;
 }

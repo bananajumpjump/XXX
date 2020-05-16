@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.tecMenu {
+  height: 35px;
+  background: #e9eaeb;
+  text-align: end;
+
+  .menutxt {
+    p {
+      display: inline-block;
+      margin-right: 7%;
+      margin-bottom: 0;
+      font-size: 13px;
+      padding-top: 8px;
+    }
+  }
+}
+
+.im-image {
+  display: flex;
+  height: 293px;
+  background-image: url(../../images/Technology/IM01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .text {
+    margin: auto;
+    p {
+      color: #fff;
+      font-size: 60px;
+    }
+  }
+}
+
+.module-pic {
+  img {
+    height: 427px;
+    object-fit: cover;
+    margin: 46px 0 27px;
+  }
+}
+.module-data {
+  height: 100px;
+  background-color: #e9eaeb;
+}
